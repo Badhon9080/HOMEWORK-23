@@ -1,0 +1,81 @@
+/*
+Theme Name: MyFolio
+Author: My Folio
+Version: 1.0.0
+
+
+Table of Content
+===================================================
+
+    1. Common Css
+    2. Nav Section
+    3. Banner Section
+*/
+/* Common Css Start */
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,
+span,
+small{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+/*//Common Css End */ 
+
+/* Nav Section Css Start */
+
+
+/* //Nav Section Css End */
+
+/* Banner Section Css Start */
+#banner .banner_slider_item{
+    height: 728px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+
+/* //Banner Section Css End */
+/* About Section Css Start */
+
+/* //About Section Css End */
+/* Service Section Css Start */
+#service{
+    background-size: cover;
+    background-position: center;
+}
+.service_item i{
+    color: green;
+}
+/*//Service Section Css End */
+/* My Work Section Css Start */
+
+
+/* //My Work Section Css End */
+/* Contact Section Css Start */
+
+.form-control{
+    border: none;
+}
+.form-control:focus{
+    box-shadow: none;
+    
+    border-color: transparent;
+}
+/* //Contact Section Css End */
+
+
+
+/* Footer Section Css Start */
+
+/* //Footer Section Css End */
+
+
